@@ -1,0 +1,72 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 80px;
+}
+
+.logo {
+  width: 100px;
+  margin-left: 60px;
+}
+
+.navLink {
+  display: flex;
+  list-style: none;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+.navLink li {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.navLink li a {
+  text-decoration: none;
+  color: white;
+}
+
+.host {
+  display: flex;
+  list-style: none;
+  margin-right: 60px;
+}
+
+.host li {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.host li a {
+  text-decoration: none;
+  color: white;
+}
+
+.web-icon {
+  width: 15px;
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 40px;
+  border-radius: 40%;
+  margin-top: 10px;
+}
+
+.menu-icon {
+  width: 20px;
+}
+.icon {
+  width: 30px;
+}
