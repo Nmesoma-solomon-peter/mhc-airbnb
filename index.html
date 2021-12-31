@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>AirBnB: Vacation Rentals, Cabins, Beach Houses, ...</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="section.css" />
   </head>
   <body>
     <header class="header">
@@ -21,11 +22,16 @@
           /></a>
         </li>
         <div class="user-icon">
-          <li>
-            <a href="#"
-              ><img class="menu-icon" src="images/menu-icon.png" alt=""
-            /></a>
-          </li>
+          <button class="dropdown-button">
+            <img class="menu-icon" src="images/menu-icon.png" alt="" />
+          </button>
+          <div class="dropdown-content">
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Host your Home</a></li>
+            <li><a href="#">Host an experience</a></li>
+            <li><a href="#">Help</a></li>
+          </div>
           <li>
             <a href="#"
               ><img class="icon" src="images/user-icon.png" alt=""
@@ -34,10 +40,35 @@
         </div>
       </ul>
     </header>
+    <div class="search-container">
+      <div class="location">
+        <h3>Location</h3>
+        <h4>Where are you going?</h4>
+      </div>
+      <div class="check-in">
+        <h3>Check in</h3>
+        <h4>Add dates</h4>
+      </div>
+      <div class="check-out">
+        <h3>Check out</h3>
+        <h4>Add dates</h4>
+      </div>
+      <div class="guests">
+        <h3>Guests</h3>
+        <h4>Add guests</h4>
+      </div>
+      <div class="search">
+        <img class="search-icon" src="images/search.png" alt="" />
+      </div>
+    </div>
 
-    <main>
-      <div>Main Section Here</div>
-    </main>
+    <section>
+      <div class="main-section">
+        <!-- <img class="bg-image" src="images/happyhome.jpg" alt="" /> -->
+        <p class="not-sure">Not sure where to? Perfect</p>
+        <button class="flex-btn">I'm flexible</button>
+      </div>
+    </section>
     <footer>
       <div>Footer Here</div>
     </footer>
