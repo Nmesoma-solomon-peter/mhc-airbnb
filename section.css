@@ -249,9 +249,9 @@ section {
 }
 
 .bottom-image {
-  width: 90%;
-  border-radius: 10px;
+  width: 100%;
   justify-content: center;
+  height: 700px;
   position: absolute;
 }
 
